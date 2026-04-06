@@ -80,11 +80,11 @@ class EstruturaDeAlteracao
         do
         {
             
-        Console.WriteLine("Insira um numero");
+        Console.WriteLine("Insira um numero\n");
         
         num = 5;//simula entrada
 
-        Console.WriteLine($"Numero: {num}");
+        Console.WriteLine($"Numero: {num}\n");
         }
         while(num <= 0);
 

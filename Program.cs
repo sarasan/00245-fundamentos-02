@@ -8,7 +8,7 @@ class Program
         
         Console.WriteLine("UC606 Estrutura de dados\n");
 
-        EstruturaDeAlteracao estruturaDeAlteracao = new EstruturaDeAlteracao ();
+        /*EstruturaDeAlteracao estruturaDeAlteracao = new EstruturaDeAlteracao ();
 
         estruturaDeAlteracao.ExecutarFor();
 
@@ -18,7 +18,11 @@ class Program
 
         estruturaDeAlteracao.ExecutarWhile ();
 
-        estruturaDeAlteracao.ExecutarDoWhile ();
+        estruturaDeAlteracao.ExecutarDoWhile ();*/
+
+        AlunoIteracao alunoIteracao = new AlunoIteracao();
+        
+        alunoIteracao.Executar();
     }
 
 }
