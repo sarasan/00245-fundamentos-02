@@ -13,6 +13,12 @@ class Program
         estruturaDeAlteracao.ExecutarFor();
 
         estruturaDeAlteracao.ExecutarForEach();
+
+        estruturaDeAlteracao.ExecutarForBreakContinue ();
+
+        estruturaDeAlteracao.ExecutarWhile ();
+
+        estruturaDeAlteracao.ExecutarDoWhile ();
     }
 
 }

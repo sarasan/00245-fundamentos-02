@@ -26,11 +26,76 @@ class EstruturaDeAlteracao
          foreach(string fruta in frutas)
         {
             
-            Console.WriteLine($"AS minhas frutas no forEach: {fruta}");
+            Console.WriteLine($"AS minhas frutas no forEach: {fruta}\n");
         }
         
 
 
     }
+//BREAK AND CONTINUE
+   public  void ExecutarForBreakContinue()
+    {
+         Console.WriteLine("Break & Continua\n"); 
+
+    
+         for( int k = 0;k < 10; k++)
+        {
+
+           if(k==3)continue;
+            
+
+
+            if(k == 8)
+            {
+                break;
+
+            }
+
+            Console.WriteLine ($"Numero: {k}\n");
+               
+               
+            }
+        }
+        
+     public  void ExecutarWhile()
+    {
+         Console.WriteLine("loop WHILE\n"); 
+
+        int contador = 1;
+
+        while (contador <= 5){
+
+            Console.WriteLine ($"Numero: {contador}\n");
+
+            contador++;
+    }
+    }
+//DO WHILE
+      public  void ExecutarDoWhile()
+    {
+         Console.WriteLine("loop DOWHILE\n"); 
+
+        int num;
+
+        do
+        {
+            
+        Console.WriteLine("Insira um numero");
+        
+        num = 5;//simula entrada
+
+        Console.WriteLine($"Numero: {num}");
+        }
+        while(num <= 0);
+
+        
+    }
+    }
+               
+        
+              
+        
+
+
+
   
-}
