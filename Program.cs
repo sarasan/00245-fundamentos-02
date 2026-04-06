@@ -11,5 +11,8 @@ class Program
         EstruturaDeAlteracao estruturaDeAlteracao = new EstruturaDeAlteracao ();
 
         estruturaDeAlteracao.ExecutarFor();
+
+        estruturaDeAlteracao.ExecutarForEach();
     }
+
 }
