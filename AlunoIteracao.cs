@@ -45,34 +45,59 @@ public class AlunoIteracao
 
         int nb;
 
-        if (int.TryParse(Console.ReadLine(), out nb)){
+        if (int.TryParse(Console.ReadLine(), out nb))
+        {
 
             soma += nb;
 
-        Console.WriteLine($"Numero inserido: \n" + nb);
+            Console.WriteLine($"Numero inserido: \n" + nb);
 
-        Console.WriteLine("Soma actual: \n" + soma);
+            Console.WriteLine("Soma actual: \n" + soma);
         }
         
-            if (nb == 0) {
+        if (nb == 0) {
 
                 break;
-
-            
-            }
-
-           
- 
         }
-         Console.WriteLine("Soma final: \n" + soma);
 
-         Console.WriteLine();
+
+        }
+        Console.WriteLine("Soma final: \n" + soma);
+
+        Console.WriteLine();
+
+////////////////////////////////////////////////////////////////
 
    Console.WriteLine("===================================================\n");
 
-    Console.WriteLine("EXERCÍCIO 3:Soma de numeros com While");
+    Console.WriteLine("EXERCÍCIO 3:Validação de senha com do-while");
 
     Console.WriteLine("===================================================\n"); 
+
+    string password = "12345A+";
+
+    string pwd;
+
+    do{
+        Console.WriteLine("Insira a palavra-passe:\n ");
+
+        pwd = Console.ReadLine();
+
+        Console.WriteLine("Palavra-passe errada\n");
+ 
+        }
+
+        while (pwd != password);
+
+      
+          if (pwd == password)
+            {
+            
+                Console.WriteLine("Senha correcta: " +  new string('*', pwd.Length));
+
+                Console.WriteLine("Acesso permitido");
+            }
+            
 
     }
    
