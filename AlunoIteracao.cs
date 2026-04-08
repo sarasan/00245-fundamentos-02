@@ -41,7 +41,7 @@ public class AlunoIteracao
 
          while (true) {
 
-        Console.WriteLine("Insira um numero: ");
+        Console.WriteLine("Insira um numero: (até inserir 0 para parar)");
 
         int nb;
 
@@ -55,13 +55,25 @@ public class AlunoIteracao
         }
         
             if (nb == 0) {
+
                 break;
+
+            
             }
+
+           
  
         }
+         Console.WriteLine("Soma final: \n" + soma);
 
+         Console.WriteLine();
 
-        
+   Console.WriteLine("===================================================\n");
+
+    Console.WriteLine("EXERCÍCIO 3:Soma de numeros com While");
+
+    Console.WriteLine("===================================================\n"); 
+
     }
    
 }
