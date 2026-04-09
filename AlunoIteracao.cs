@@ -96,7 +96,30 @@ public class AlunoIteracao
                 Console.WriteLine("Senha correcta: " +  new string('*', pwd.Length));
 
                 Console.WriteLine("Acesso permitido");
+
+
+     
             }
+
+///////////////////////////////////////////////////////////////////////////////////
+Console.WriteLine("===================================================\n");
+
+Console.WriteLine("EXERCÍCIO 4: Nomes em Maiúsculas");
+
+Console.WriteLine("===================================================\n"); 
+
+ Console.WriteLine("Nomes em maiusculas: \n");
+
+
+    string [] nomes=["Ana", "Clara", "Pedro", "Miguel"];
+
+    foreach (string name in nomes)
+        {
+        
+           
+           Console.WriteLine(name.ToUpper());
+        }
+
             
 
     }
