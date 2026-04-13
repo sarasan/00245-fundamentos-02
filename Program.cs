@@ -10,7 +10,7 @@ class Program
 
         /*EstruturaDeAlteracao estruturaDeAlteracao = new EstruturaDeAlteracao ();
 
-        estruturaDeAlteracao.ExecutarFor();
+        /*estruturaDeAlteracao.ExecutarFor();
 
         estruturaDeAlteracao.ExecutarForEach();
 
@@ -18,11 +18,15 @@ class Program
 
         estruturaDeAlteracao.ExecutarWhile ();
 
-        estruturaDeAlteracao.ExecutarDoWhile ();*/
+        estruturaDeAlteracao.ExecutarDoWhile ();
 
         AlunoIteracao alunoIteracao = new AlunoIteracao();
         
-        alunoIteracao.Executar();
+        alunoIteracao.Executar();*/
+
+        ArrayUnidimensional  arrayUnidimensional = new ArrayUnidimensional();
+
+        arrayUnidimensional.ExecutarArrayUnidimensional();
     }
 
 }
